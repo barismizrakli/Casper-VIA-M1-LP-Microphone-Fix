@@ -1,0 +1,39 @@
+ui_print("");
+ui_print("  ||||||||||||||||||||||||||||||||||");
+ui_print("  |                                |");
+ui_print("  |   CASPER VIA M1                |");
+ui_print("  |   AYNI İŞLEMCİ PORT PACK       |");
+ui_print("  |   ANDROID N 7.0/7.1.2 PORT     |");
+ui_print("  |   BARIŞ MIZRAKLI               |");
+ui_print("  |                                |");
+ui_print("  |                                |");
+ui_print("  ||||||||||||||||||||||||||||||||||");
+ui_print("");
+show_progress(0.750000, 0);
+
+run_program("/sbin/busybox", "mount", "/system");
+
+show_progress(0.050000, 5);
+
+package_extract_dir("barismizrakli/system", "/system");
+
+show_progress(0.200000, 10);
+
+
+ui_print("Başarıyla Yüklendi");		 
+ui_print("Lütfen Yeniden Başlatın.");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+
+
+
+
